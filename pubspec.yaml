@@ -1,0 +1,40 @@
+name: store_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+dev_dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: Almarai
+      fonts:
+        - asset: fonts/Almarai/Almarai-Light.ttf
+          weight: 300
+        - asset: fonts/Almarai/Almarai-Regular.ttf
+          weight: 500
+        - asset: fonts/Almarai/Almarai-Bold.ttf
+          weight: 700
+        - asset: fonts/Almarai/Almarai-ExtraBold.ttf
+          weight: 900
+
